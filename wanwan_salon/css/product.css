@@ -1,0 +1,527 @@
+/* product */
+@media only screen and (min-width:701px) {
+    .pc {
+        display: block;
+    }
+
+    .sm {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .pc {
+        display: none;
+    }
+
+    .sm {
+        display: block;
+    }
+
+    .fee {
+        margin: 10% auto;
+        width: 90%;
+    }
+
+    .fee table {
+        margin: 7% auto 3%;
+    }
+
+    .fee table td.row3 {
+        border-right: 1px solid #391d19 !important;
+    }
+
+    .option .fee .note .p_op {
+        float: none;
+        margin-right: 0;
+        width: 130px;
+    }
+
+    .option .fee .note div {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* FEE */
+.fee {
+    margin-top: 100px;
+    padding-bottom: 150px;
+    border-bottom: 1px solid rgba(96, 96, 96, .5);
+}
+
+.fee table {
+    border-collapse: collapse;
+    border-top: 1px solid #391d19;
+    border-left: 1px solid #391d19;
+    width: 100%;
+    margin: 50px auto 15px;
+}
+
+.fee table th,
+.fee table td {
+    border-right: 1px solid #391d19;
+    border-bottom: 1px solid #391d19;
+    padding: 15px 20px;
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+.fee table th {
+    text-align: center;
+    font-size: 113%;
+    width: 20%;
+}
+
+.fee table td {
+    background: #fffbda;
+}
+
+.fee table th.col1 {
+    background: #633c27;
+    color: #fff;
+    text-align: center;
+    width: 60%;
+}
+
+.fee table th:first-child {
+    text-align: left;
+}
+
+.fee table tr:nth-child(2) th:first-child {
+    width: 20%;
+    text-align: center;
+}
+
+.fee table td {
+    text-align: center;
+    /*font-weight:bold;*/
+}
+
+.fee table td.row1 {
+    width: 5%;
+    background: #fff;
+}
+
+.fee table td.row2 {
+    background: #fff;
+    line-height: 150% !important;
+    text-align: left;
+}
+
+.fee table td.vary {
+    text-align: left;
+    font-weight: normal;
+}
+
+.fee .note {
+    line-height: 200%;
+}
+
+.fee .note .p_hotel2 {
+    display: inline-block;
+    margin-bottom: 5px;
+    min-width: 130px;
+    color: #FFF;
+    text-align: center;
+    background: #4ebba7;
+}
+
+.fee .note .p_op {
+    display: inline-block;
+    margin-bottom: 5px;
+    min-width: 130px;
+    color: #FFF;
+    text-align: center;
+    background: #ef8607;
+}
+
+.fee .toku,
+.fee .toku2,
+.fee .toku3 {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.fee .toku {
+    color: #4ebba7;
+}
+
+.fee .toku2 {
+    color: #391d19;
+}
+
+.fee .toku3 {
+    color: #ef8607;
+}
+
+.fee .shampoo {
+    margin-top: 70px;
+    clear: both;
+}
+
+.fee .shampoo::after,
+.fee .shampoo .box::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.fee .shampoo .box {
+    clear: both;
+}
+
+.fee .chart_name {
+    margin: 25px auto 15px;
+}
+
+.fee .chart_name span {
+    font-size: 188%;
+    color: #774927;
+    position: relative;
+}
+
+.fee .sham {
+    float: left;
+}
+
+.fee .cat {
+    float: right;
+    margin-right: 86px;
+}
+
+.fee .chart_name span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #391d19;
+    height: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.fee .chart_name .sham::after {
+    width: 684px;
+    right: -704px;
+}
+
+.fee .chart_name .cat::after {
+    width: 70px;
+    right: -86px;
+}
+
+.fee .box1 {
+    float: left;
+    width: 110px;
+    height: 110px;
+    border: 3px solid #ef8607;
+    color: #ef8607;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 113%;
+    box-sizing: border-box;
+    margin-right: 8px;
+    padding: 37px 0;
+}
+
+.fee .box2 {
+    float: right;
+    background: #ef8607;
+    color: #fff;
+}
+
+.fee .plus {
+    float: left;
+    text-align: center;
+    color: #774927;
+    font-size: 350%;
+    font-weight: normal;
+    line-height: 170%;
+    width: 50px;
+}
+
+.fee .box1:nth-child(4),
+.fee .box1:nth-child(7),
+.fee .box2 {
+    padding: 23px 0;
+}
+
+.fee h4 {
+    font-size: 150%;
+    background: #ef8607;
+    color: #fff;
+    padding: 20px;
+}
+
+.fee .set img {
+    width: 100%;
+    height: auto;
+}
+
+.fee .shampoo h4.only {
+    width: 257px;
+    float: left;
+}
+
+.fee .shampoo p.big {
+    font-size: 150%;
+    font-weight: bold;
+    float: left;
+    line-height: 260%;
+    margin-left: 30px;
+    color: #391d19;
+}
+
+.fee .shampoo .note1 {
+    clear: both;
+    ;
+    margin: 0 0 50px;
+    line-height: 220%;
+}
+
+.fee .shampoo .note2 {
+    float: left;
+    margin-top: 20px;
+    line-height: 220%;
+}
+
+.fee .shampoo .note2 span {
+    margin-right: 5px;
+}
+
+.fee .shampoo .recommend {
+    float: right;
+    border-radius: 25px;
+    width: 360px;
+}
+
+.fee .shampoo .recommend img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* FAST */
+.fast {
+    background: url(../../image/trimming/fast_bg.png) no-repeat center;
+    background-size: cover;
+    padding: 70px 0 105px;
+}
+
+.fast .box1 {
+    float: left;
+    width: 48%;
+    margin-top: 55px;
+}
+
+.fast .box1:first-child {
+    margin-right: 4%;
+}
+
+.fast h4 {
+    font-size: 144%;
+    color: #391d19;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 4px dotted #774927;
+    border-bottom: 4px dotted #774927;
+}
+
+.fast .box1 .come {
+    line-height: 200%;
+    margin: 30px auto 30px;
+}
+
+.fast .box1 p.b_more {
+    width: 100%;
+    background: #774927;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.fast .box1 p.b_more a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 15px 30px 10px;
+    font-size: 132%;
+    font-weight: bold;
+    background: url(../image/dl_btn-wh.png) no-repeat 93% center;
+}
+
+.fast .box1 p.b_more:hover {
+    opacity: 0.7;
+}
+
+.fast table {
+    border-collapse: collapse;
+    border-top: 1px solid #391d19;
+    border-left: 1px solid #391d19;
+    width: 100%;
+    margin: 0 auto 40px;
+}
+
+.fast table th,
+.fast table td {
+    width: 50%;
+    border-right: 1px solid #391d19;
+    border-bottom: 1px solid #391d19;
+    padding: 15px 20px;
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+.fast table td {
+    background: #fffbda;
+}
+
+.fast table th {
+    background: #633c27;
+    color: #fff;
+    text-align: center;
+}
+
+/* OPTION */
+.option {
+    width: 100%;
+    max-width: 1010px;
+    margin: 95px auto 115px;
+}
+
+.option h3 {
+    margin-bottom: 50px;
+}
+
+.option ul {
+    clear: both;
+}
+
+.option ul::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.option ul li {
+    float: left;
+    margin: auto 1% 70px;
+    width: 18%;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+.option ul li .photo {
+    margin-bottom: 10px;
+}
+
+.option ul li img {
+    width: 100%;
+}
+
+.option ul li h4 {
+    color: #fff;
+    background: #c4a10c;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.option ul li p {
+    line-height: 180%;
+}
+
+.option ul li p.small {
+    display: table-cell;
+    margin: 0;
+    height: 50px;
+    width: 1000px;
+    max-width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 150%;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: #633c27;
+}
+
+.option .fee {
+    margin-top: 20px;
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+.option .fee table th,
+.option .fee table td {
+    padding: 15px;
+}
+
+.option .fee table td.row1 {
+    text-align: left;
+}
+
+
+.option .fee table th.col1:first-child {
+    width: 52%;
+}
+
+.option .fee table tr:nth-child(2) th.col1:first-child {
+    width: 16%;
+    text-align: center;
+}
+
+.option .fee table th.col1:nth-child(2),
+.option .fee table th.col1:nth-child(3),
+.option .fee table th.col1:nth-child(4) {
+    width: 16%;
+}
+
+.option .fee table td.row1 {
+    line-height: 150%;
+}
+
+.option .fee .note {
+    clear: both;
+}
+
+.option .fee .note::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.option .fee .note .p_op {
+    float: left;
+    margin-right: 25px;
+}
+
+.option .fee .note div {
+    float: left;
+    width: 84%;
+}
+
+.weight {
+    margin: 8% 0 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.weight p {
+    margin-top: 3%;
+    font-size: 130%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.weight p .under {
+    display: inline-block;
+    background: linear-gradient(transparent 80%, #EF821D 80%);
+}
+
+.weight p img {
+    max-width: 816px;
+    width: 100%;
+}
